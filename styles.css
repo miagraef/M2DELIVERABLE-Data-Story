@@ -1,13 +1,24 @@
+@font-face {
+    font-family: 'LEMON MILK';
+    src: url('LEMONMILK-Regular.woff2') format('woff2'),
+        url('LEMONMILK-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root{
-    --color-text:#404040;
-    --color-surface:#fff;
-    --color-action:#8c1d40;
-    --color-accent:#ffc627;
+    --color-text:#383737;
+    --color-surface:#f1e8e8dc;
+    --color-action:rgb(36, 16, 121);
+    --color-accent:#cfedff;
     --color-muted:#747474;
     --color-border:#d0d0d0;
     --space-3:1rem;
     --radius-card:.5rem;
     --measure:68ch;
+    --heading-font: 'LEMON MILK', 'helvetica', 'arial', sans-serif;
+    --text-font: 'helvetica', 'arial', sans-serif;
 }
 *,*::before,*::after{
     box-sizing:border-box;
@@ -16,7 +27,7 @@ body{
     margin:0;
     color:var(--color-text);
     background:var(--color-surface);
-    font-family:Arial,sans-serif;
+    font-family:"Helvetica", Arial,sans-serif;
     line-height:1.6;
 }
 .story-header{
@@ -31,6 +42,7 @@ body{
 .lede{
     max-width:var(--measure);
     font-size:1.25rem;
+    font-family: var(--text-font);
 }
 main{
     max-width:72rem;

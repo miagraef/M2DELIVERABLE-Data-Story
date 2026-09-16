@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 467.42 215.68">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: HelveticaNeue-Italic, HelveticaNeue;
+        font-size: 18px;
+        font-style: italic;
+      }
+
+      .cls-2 {
+        fill: #1b2466;
+      }
+
+      .cls-3 {
+        fill: #7c90f7;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-2" x="90.83" y=".5" width="376.09" height="93.27"/>
+    <path d="M466.42,1v92.27H91.33V1h375.09ZM467.42,0H90.33v94.27h377.09V0h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-3" x="90.33" y="121.41" width="141.41" height="94.27"/>
+    <path d="M466.42,122.41v92.27H91.33v-92.27h375.09ZM467.42,121.41H90.33v94.27h377.09v-94.27h0Z"/>
+  </g>
+  <text class="cls-1" transform="translate(9.03 51.84)"><tspan x="0" y="0">2020-21</tspan></text>
+  <text class="cls-1" transform="translate(9.03 173.24)"><tspan x="0" y="0">2025-26</tspan></text>
+</svg>
