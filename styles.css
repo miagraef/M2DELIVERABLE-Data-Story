@@ -11,7 +11,8 @@
     --color-text:#383737;
     --color-surface:#f1e8e8dc;
     --color-action:rgb(36, 16, 121);
-    --color-accent:#cfedff;
+    --color-accent:#7c90f7;
+    --color-lighter: #bbc6ff;
     --color-muted:#747474;
     --color-border:#d0d0d0;
     --space-3:1rem;
@@ -32,11 +33,11 @@ body{
 }
 .story-header{
     padding:clamp(2rem,6vw,5rem);
-    background:var(--color-action);
-    color:#fff;
+    background:var(--color-lighter);
+    color: var(--color-action);
 }
 .eyebrow{
-    color:var(--color-accent);
+    color:var(--color-action);
     font-weight:700;
 }
 .lede{
@@ -52,6 +53,9 @@ main{
 section{
     padding-block:2rem;
     border-bottom:1px solid var(--color-border);
+}
+h2 {
+    color: var(--color-action);
 }
 .story-grid{
     display:grid;gap:var(--space-3);
@@ -86,11 +90,12 @@ caption{
 }
 th,td{
     padding:.75rem;
-    border:1px solid var(--color-border);
+    border:1px solid var(--color-action);
     text-align:left;
 }
 thead{
-    background:#f1f1f1;
+    background: var(--color-accent);
+    color: var(--color-surface);
 }
 .table-region:focus-visible{
     outline:.2rem solid var(--color-accent);
