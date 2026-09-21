@@ -21,8 +21,7 @@
         <section id="story-frame">
             <h2>D1 · Story Frame</h2>
             <p>This data story of declining average snowfall is provided by the National Oceanic and Atmospheric Association (NOAA) National Weather Service. 
-                <br>
-                NOAA National Weather Service. (n.d.). History of snowfall observations at Denver. https://www.weather.gov/bou/seasonalsnowfall</p>
+                NOAA National Weather Service. (n.d.). <a href="https://www.weather.gov/bou/seasonalsnowfall">History of snowfall observations at Denver</a>. </p>
         </section>
         <section id="figures">
             <h2>D2 · Editorial Figures</h2>
@@ -39,7 +38,7 @@
         </section>
         <section id="data-table">
             <h2>D3 · Accessible Data Table</h2>
-            <div class="table-region" role="region" aria-label="Replace with a specific table label" tabindex="0">
+            <div class="table-region" role="region" aria-label="Snowfall in Denver, Colorado from 7 different seasons" tabindex="0">
                 <table>
                     <caption>Compared average snowfall in Denver, Colorado from 2020-21 to 2025-26 seasons. (in inches)</caption>
                     <thead>
@@ -75,15 +74,18 @@
                     </tbody>
                 </table>
             </div>
-            <p class="source-note">NOAA National Weather Service. (n.d.). History of snowfall observations at Denver. https://www.weather.gov/bou/seasonalsnowfall<br> Viewing seasons from 2020-21 to 2025-26.</p>
+            <p class="source-note"><a href="https://www.weather.gov/bou/seasonalsnowfall">NOAA National Weather Service: History of snowfall observations at Denver</a>. Viewing seasons from 2020-21 to 2025-26.</p>
         </section>
         <section id="vector-story">
             <h2>D4 · Responsive SVG</h2>
-            <figure>
-            <img src="responsivesnowflake.svg" alt="seven snowflakes alternating dark and light blue, decreasing in size labeled with dates of seasons." viewBox="0 0 800 450" aria-labelledby="graphic-title graphic-desc">
-                <title id="graphic-title">Replace with a concise title</title>
-                <figcaption id="graphic-desc">Seven seasons of snowfall in Colorado compared by snowflake sizes. (1in = 3px)</figcaption>
-            </figure>
+        
+            <svg class="story-graphic" viewBox="0 0 800 450" role="img" aria-labelledby="graphic-title graphic-desc">
+                <title id="graphic-title">Seven Season Snowfall Comparison</title>
+                <desc id="graphic-desc">seven snowflakes alternating dark and light blue, decreasing in size labeled with dates of seasons."(1in = 3px)</desc>
+                <image href="responsivesnowflake.svg" width="800" height="450"></image>
+            </svg>
+                
+        
         </section>
         <section id="documentation">
             <h2>D5-D6 · System and Documentation</h2>
